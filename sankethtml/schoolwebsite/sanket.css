@@ -1,0 +1,209 @@
+
+#search{
+	float: right;
+}
+#search input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 10px 40px 12px 40px;
+}
+
+body{
+	background-color: rgb(32, 76, 116);
+	color: white;
+	font-size: 87.5%; 
+	/*Font Size is 14 */
+	font-family: Arial, "Comic Sans Ms";
+	line-height: 1.5;
+	text-align: left;
+}
+
+.body{
+    margin: 0 auto;
+    width: 70%;	 
+    clear: both;
+    }
+
+.mainContent{
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.image{
+position: relative;
+margin-top: 2%;
+}
+
+.topContent{
+    background-color: green;
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+    }    
+
+.bottomContent{
+    background-color: green;
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;    }
+
+    
+.mainheader nav{
+    background-color: #666;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    }
+.mainheader nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    }
+.mainheader nav ul li {
+    list-style-type: none;
+    margin: 0 auto;
+    float:left;
+    display: inline-block;
+    }
+
+.mainheader nav a:link, .mainheader nav a:visited{
+    color: #fff;
+    padding: 10px 25px;
+    height: 20px;
+    }
+
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainHeader nav .active a:visited
+    {
+     background-color: #cf5c3F;
+     text-shadow: none;
+    }
+.mainheader nav ul li a{
+        border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    }
+
+.mainFooter{
+        width: 100%;
+        float: left;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        background-color: #666;
+        margin-top: 3%;
+        font-size:x-large;
+        margin-bottom: 2%;
+        }
+.mainFooter p{
+     width: 92%;
+     margin: 10px auto;
+     color: #fff;
+     padding: 2px;
+     height: 40px;
+     text-align: center;
+    font-size:large;
+        }
+        
+.con{
+    font-style: italic;
+    font-size: large;
+    color: aqua;
+}    
+.but{
+    width: 20%;
+    color: chocolate;
+}
+
+iframe{
+        margin-top: 10px;
+        float: right;
+      }   
+input[type=text],input[type=password]{
+        width: 100%;
+        height: 40px;
+        padding: 5px;
+        margin-bottom: 25px;
+        margin-top: 5px;
+        border: 2px solid #ccc;
+        color: #4f4f4f;
+        font-size: 16px;
+        border-radius: 5px;
+       }     
+   
+input[type=number]{ 
+        width: 30%;
+        height: 40px;
+        margin-bottom: 10px;
+        margin-top: 1px;
+        border: 2px solid #ccc;
+        color: #4f4f4f;
+        font-size: 16px;
+        border-radius: 5px;
+       }  
+       
+input[type=button]{
+    width: 40%;
+    height: 40px;
+    background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+   }       
+div.container{
+    width: 900px;
+    height: 200px;
+    margin:15px auto;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+   }
+        
+div.main{
+    width: 300px;
+     padding: 1px 50px 10px;
+     border: 2px solid rgb(162, 245, 7);
+     border-radius: 10px;
+     font-family: raleway;
+     float:left;
+     margin-top:10px;
+       }
+        
+.log{
+width: 900 px;
+height:550px;
+float: right;
+margin-top:10px;
+}    
+.gallery{margin: 5px;
+    border: 1 solid black ;
+    float: left;
+    width:180px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+#fix{
+    clear: both;
+  }
+div.desc {
+    padding: 15px;
+    text-align: center;
+}   
+.downlink{
+    color: black;
+}

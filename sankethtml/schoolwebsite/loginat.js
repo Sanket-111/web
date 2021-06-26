@@ -7,7 +7,8 @@ function validate(){
 
 	if ( username == "Sanket" && password == "Sanket123"){
 		alert ("Login successfully");
-		document.location = "success.html"; //redirecting to other page
+		window.location.replace("success.html");
+		window.location = "success.html"; //redirecting to other page
 		return false;
 	}
 	else{

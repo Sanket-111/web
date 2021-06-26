@@ -7,7 +7,7 @@ function validate(){
 
 	if ( username == "Sanket" && password == "Sanket123"){
 		alert ("Login successfully");
-		window.location = "https://education-websitesanket.herokuapp.com"; //redirecting to other page
+		window.location = "Success.html"; //redirecting to other page
 		return false;
 	}
 	else{
